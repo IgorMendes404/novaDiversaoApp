@@ -1,0 +1,7 @@
+{
+  "name": "novaDiversaoApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
