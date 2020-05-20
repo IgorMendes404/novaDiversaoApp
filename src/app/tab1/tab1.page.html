@@ -1,17 +1,61 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header>
+  <ion-toolbar color="primary">
     <ion-title>
-      Tab 1
+      Filmes
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content color="dark">
+  <div class="banner">
+    <div class="info-banner">
+      <h2>Gotham</h2>
+      <p>2014 &nbsp;&nbsp; 16 &nbsp;&nbsp; 5 Temporadas </p>
+      <ion-button color="danger" size="small">Assistir</ion-button>
+      <ion-button fill="outline" color="light" size="small">Episódios</ion-button>
+    </div>
+  </div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-grid>
+    <h1>Populares</h1>
+    <ion-row>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/5Z7AJiQhocA20MkI5JXZ6OjTxEW.jpg">
+      </ion-col>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/p7RjlzDLV4KksrWtyve1Rg40nLv.jpg">
+      </ion-col>
+    </ion-row>
+
+    <h1>Em Cartaz</h1>
+    <ion-row>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/zEae3Y5gB7e8Z3LZWsMWZcrsf92.jpg">
+      </ion-col>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/st4n0FALlo0twLkSqxAvU15SKvU.jpg">
+      </ion-col>
+    </ion-row>
+
+    <h1>Próximas estréias</h1>
+    <ion-row>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/mDt3GkephI5yrRsEgLfdo3MYxyj.jpg">
+      </ion-col>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/fcNbQWAb9DVsL9U9dX4TYi3Ci9L.jpg">
+      </ion-col>
+    </ion-row>
+
+    <h1>Mais bem avaliados</h1>
+    <ion-row>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/2CAL2433ZeIihfX1Hb2139CX0pW.jpg">
+      </ion-col>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/xSnM4ahmz692msbMTBsfBWHvR3M.jpg">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
